@@ -1,9 +1,7 @@
 name: Auto Build Docker Image
 
-on:
-  push:
-    branches:
-      - main
+on: [push]
+
 
 jobs:
   build:
